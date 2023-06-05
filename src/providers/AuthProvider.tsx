@@ -25,8 +25,6 @@ export const AuthProvider = ({ children }: IAuthProviderProps) => {
         if (!token) {
             setLoading(false);
 
-            navigate("/");
-
             return;
         }
 

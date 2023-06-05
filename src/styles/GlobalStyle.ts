@@ -5,13 +5,13 @@ export default createGlobalStyle`
     --color-green: #00875F;
     --color-green-light: #00B37E;
     --color-red-danger: #F75A68;
-    --color-gray1: #121214;
-    --color-gray2: #202024;
-    --color-gray3: #323238;
-    --color-gray4: #7C7C8A;
-    --color-gray5: #8D8D99;
-    --color-gray6: #C4C4CC;
-    --color-gray7: #E1E1E6;
+    --color-gray-1: #121214;
+    --color-gray-2: #202024;
+    --color-gray-3: #323238;
+    --color-gray-4: #7C7C8A;
+    --color-gray-5: #8D8D99;
+    --color-gray-6: #C4C4CC;
+    --color-gray-7: #E1E1E6;
     --color-white: #FFFFFF;
 
     font-size: 60%;
@@ -38,7 +38,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: var(--color-gray1);
+    background: var(--color-gray-1);
     color: var(--color-white);
     -webkit-font-smoothing: antialiased;
 
